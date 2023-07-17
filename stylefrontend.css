@@ -1,9 +1,33 @@
-body {
-  background-color: #a733ff;
+.yellow{
+   position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+ 
+}
+
+
+@keyframes example{
+  0%{ background-color: red;}
+  10%{ background-color: blue;}
+  20%{ background-color: yellow;}
+  30%{ background-color: brown;}
+  40%{ background-color: orange;}
+  50%{ background-color: pink;}
+  60%{ background-color: purple;}
+  70%{ background-color: green;}
+  80%{ background-color: black;}
+  90%{ background-color: white;}
+  100%{ background-color: red;}
 }
 #important{
   color: red;
 }
 .yellow{
   color : yellow;
+}
+body{
+
+
 }
